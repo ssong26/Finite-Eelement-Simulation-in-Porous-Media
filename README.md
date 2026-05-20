@@ -10,9 +10,9 @@ The program solves a frequency-domain acoustic wave problem in a rectangular dom
 
 The governing equation is a Helmholtz-type equation for acoustic pressure:
 
-\[
+$$
 \nabla^2 p + k^2 p = 0
-\]
+$$
 
 where \(p\) is the acoustic pressure and \(k = 2\pi f / c_0\) is the acoustic wavenumber.
 
