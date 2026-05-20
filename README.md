@@ -14,13 +14,17 @@ $$
 \nabla^2 p + k^2 p = 0
 $$
 
-where \(p\) is the acoustic pressure and \(k = 2\pi f / c_0\) is the acoustic wavenumber.
+where $p$ is the acoustic pressure and
+$$
+k = \frac{2\pi f}{c_0}
+$$
+is the acoustic wavenumber.
 
 A prescribed background pressure is applied at the left boundary. The numerical solution is compared with the analytical 1D solution:
 
-\[
-p(x) = \frac{\cos(kx)}{\cos(kL)}
-\]
+$$
+\nabla^2 p + k^2 p = 0
+$$
 
 ## Features
 
