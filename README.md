@@ -15,9 +15,11 @@ $$
 $$
 
 where $p$ is the acoustic pressure and
+
 $$
 k = \frac{2\pi f}{c_0}
 $$
+
 is the acoustic wavenumber.
 
 A prescribed background pressure is applied at the left boundary. The numerical solution is compared with the analytical 1D solution:
