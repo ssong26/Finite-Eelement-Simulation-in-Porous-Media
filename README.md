@@ -79,14 +79,7 @@ The implementation uses:
 The elemental FEM formulation is:
 
 $$
-K_e =
-\int_{\Omega}
-\left(
-\nabla N \cdot \nabla N
--
-k^2 N N
-\right)
-d\Omega
+K_e = \int_{\Omega} \left(\nabla N \cdot \nabla N - k^2 N N\right) d\Omega
 $$
 
 where:
